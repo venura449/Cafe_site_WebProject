@@ -1,0 +1,784 @@
+
+
+
+/*customer panel*/
+ 
+
+
+
+        /*facility*/
+        /* styles.css */
+
+        {
+            font-family: Arial, sans-serif;
+            margin: 0; 
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            z-index: 1000; 
+            position: relative; 
+        }
+
+        .navbar-brand {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .navbar-nav .nav-link {
+            color: #333;
+            transition: color 0.3s, background-color 0.3s;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #fff;
+            background-color: #ffc107;
+            border-radius: 5px;
+        }.splash-screen {
+            position: relative;
+            height: 60vh;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            overflow: hidden;
+            background-image: url('pexels-chevanon-324028.jpg');
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 30px;
+        }
+
+        .splash-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1; 
+        }
+
+        .splash-content {
+            position: relative;
+            z-index: 2; 
+        }
+
+        .splash-content h1 {
+            font-size: 5em;
+            font-family: 'Rastanty Cortez', serif;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+            margin-bottom: 10px;
+        }
+
+        .splash-content p {
+            font-size: 1em;
+            font-family: 'Papyrus', sans-serif;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+        }
+        .splash-content p1 {
+            font-size: 0.5em;
+            font-family: 'Papyrus', sans-serif;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+        }
+
+        .splash-text {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            font-size: 1em;
+            font-family: 'Arial', sans-serif;
+            z-index: 3; 
+        }
+        .facilities-section {
+            width: 50%;
+            margin-left: 50px;
+            border-left: 1px solid #ccc;
+            padding-left: 20px;
+        }
+        
+        .book-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+      
+/* styles.css */
+
+    /*story css*/
+    .splash-screen {
+        .splash-screen {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-image: url('images/cafe.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .splash-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Optional: Add overlay for better text readability */
+        }
+        .splash-text {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+        .splash-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            text-align: center;
+        }
+        
+        .navbar {
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .navbar-brand {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .navbar-nav .nav-link {
+            color: #333;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        
+        .navbar-nav .nav-link:hover {
+            color: #fff;
+            background-color: #ffc107;
+            border-radius: 5px;
+        }
+        
+
+    }
+    .splash-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); /* Optional: Add overlay for better text readability */
+    }
+    .splash-text {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #fff;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    
+
+    .splash-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1; 
+    }
+
+    .splash-content {
+        position: relative;
+        z-index: 2; 
+    }
+
+    .splash-content h1 {
+        font-size: 5em;
+        font-family: 'Rastanty Cortez', serif;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+        margin-bottom: 10px;
+    }
+
+    .splash-content p {
+        font-size: 1em;
+        font-family: 'Papyrus', sans-serif;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+    }
+    .splash-content p1 {
+        font-size: 0.5em;
+        font-family: 'Papyrus', sans-serif;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+    }
+
+    .splash-text {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        font-size: 1em;
+        font-family: 'Arial', sans-serif;
+        z-index: 3; 
+    }
+    
+
+
+
+
+
+
+  /*signup*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+*:focus {
+    outline: none;
+}
+
+body {
+    background-image: url(./images/pb.jpg);
+    background-size: cover;
+}
+
+#login-box {
+    position: relative;
+    margin: 5% auto;
+    width: 600px;
+    height: 400px;
+    background: #FFF;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    opacity: 80%;
+}
+
+.left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+input[type="text"],
+input[type="password"] {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-bottom: 2px solid #16a085;
+    color: #16a085;
+    transition: 0.2s ease;
+}
+
+input[type="submit"] {
+    margin-top: 28px;
+    width: 120px;
+    height: 32px;
+    background: #16a085;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    opacity: 0.8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+    opacity: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+}
+
+.or {
+    position: absolute;
+    top: 180px;
+    left: 280px;
+    width: 40px;
+    height: 40px;
+    background: #DDD;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    line-height: 40px;
+    text-align: center;
+}
+
+
+
+.navbar {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: #ffc107;
+    border-radius: 5px;
+}
+
+/* Reservation styles*/
+
+
+
+/* product styles*/
+
+*{
+    font-family: Arial;
+    padding: 0;
+    scroll-padding-top: 2rem ;
+    scroll-behavior:smooth;
+    box-sizing: border-box;
+    list-style: none;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #b3daff;
+}
+
+body, html {
+    overflow-x: hidden;
+    overflow-y: auto; /* hiding vertical scrolling */
+}
+
+img{
+    width:100%;
+}
+
+body{
+    margin: 0;
+}
+
+
+section{
+    padding:4rem 0 3rem;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:white ;
+    box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
+    z-index: 100;
+
+}
+
+.nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem 4rem 3rem 7rem;
+
+    position:fixed;
+}
+
+.logo{
+    font-size:1.8rem ;
+    color:black;
+    font-weight: 400;
+}
+
+#cart-icon{
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.section-title{
+    font-size: 1.7rem;
+    font-weight: 800;
+    text-align: center;
+    color: black;
+    margin-top: 4rem;
+}
+
+.shopProducts .item h2{
+    color: black;
+}
+
+.shopProducts .item img{
+    border-radius: 2rem;
+    width: 15rem;
+}
+
+.shopProducts{          /*image grid*/
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5rem;
+   
+}
+
+.shopProducts .item{                /*image background*/
+    background-color: rgb(182, 183, 185);
+    padding: 20px 20px 5px 20px;
+    border-radius: 2rem;
+    margin-left: 10px;
+    box-shadow: 0px 10px 15px -3px black;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+
+.shopProducts .item h2{
+    margin-top: 7px;
+    text-align: center;
+}
+
+.shopProducts .item .addToCartPrice{
+    display: flex;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    margin-left: 0px;
+    align-items: center;
+    padding: 20px 10px;
+    justify-content: space-between;
+}
+
+.shopProducts .item .addToCartPrice button{
+    width:70%;
+    background-color:rgb(113, 0, 179);
+    color: white;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    margin-left: -11px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.shopProducts .item .addToCartPrice button:hover{
+    background: #ff0000;
+    transform: scale(0.9);
+    transition: 0.4s;
+}
+
+.shopProducts .item .addToCartPrice h4{
+    font-size: 20px;
+    margin: 10px;
+    margin-top: 0px;
+    margin-right: 10px;
+    padding-left: 0px;
+}
+
+.shopProducts .item img:hover{  /* image hover*/
+    transform: scale(1.1);
+    transition: 0.4s;
+    z-index: 2;     /* used to control the stacking order of elements that overlap in the same container.*/
+}
+
+
+.cartBody{
+    background-color: aqua;
+}
+
+.cartwindow{
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    color: rgb(0, 0, 0);
+    width:500px;
+    height:100%;
+    top:0rem;
+    margin-left:35rem;
+    bottom: 0rem;
+    display: grid;
+    border-radius: 30px;
+    box-shadow: -3px 0 6px 8px rgb(101, 95, 95);
+}
+
+.cartwindow .shoppingCartElements {
+    overflow-y: auto; /* Enable vertical scrolling for cart items */
+}
+
+.cartwindow .shoppingCartElements h1{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    color:black;
+    border: solid black;
+    margin-bottom: 40rem;
+    margin-right: 23px ;
+    margin-left: 8px;
+    padding: 5px 0px 5px 0px;
+}
+
+.cartwindow h1{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.cartwindow .closeButton{
+    position:absolute;
+    width: 40px;
+    right: 20px;
+    top:10px;
+    cursor: pointer;
+}
+
+.cartwindow .footerCartwindow{
+    margin-left: 5px;
+    position: relative;
+    bottom: 10px;
+    width: 88%;
+}
+.cartwindow .footerCartwindow .total{
+    display: flex;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    align-items: center;
+    padding: 20px 10px;
+    justify-content: space-between;
+ 
+    border-radius: 1rem;
+
+}
+
+.cartwindow .footerCartwindow .checkoutButton button{
+    width:100%;
+    height: 40px;
+    background-color:rgb(113, 0, 179);
+    color: white;
+    border: none;
+    padding: 10px 0px 10px 20px;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-top: 2rem;
+    border-radius: 12px;
+    position:relative;
+}
+
+.cartwindow .footerCartwindow .checkoutButton button:hover{
+    background: #ff0000;
+    transform: scale(0.9);
+    transition: 0.4s;
+}
+
+.iconCount {
+	position: absolute;
+	top: 75px;
+	right: 46px;
+	text-align: center;
+	font-size: 20px;
+	padding: 5px;
+	min-width: 25px;
+	background-color: red;
+	color: white;
+	border-radius: 50px;
+}
+
+
+.cartWindowFooterTotal .footerTotalPrice{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    margin-left: 30px;
+    margin-right: 27px;
+    align-items: center;
+    padding: 5px 10px;
+    justify-content: space-between;
+    border: 3px solid rgb(94, 55, 248);
+    border-radius: 1rem;
+    position: relative;
+}
+
+
+.cartWindowFooterTotal .footerTotalPrice .cartWindowItemprice{
+    color: black;
+    padding-right:50px ;
+    font-size: 25;
+}
+
+.cartWindowFooterTotal .footerTotalPrice h4{
+   padding-right: 17rem;
+   font-size: 25px;
+}
+
+.cartWindowItems button{
+    background-color: blueviolet;
+    padding: 5px 12px 5px 10px;
+    margin-left:150px;
+    border-radius: 5px;
+    color: aliceblue;
+    border:none;
+}
+
+.cartWindowItems button:hover{
+    background: #ff0000;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.cartWindowItemName{
+    color: rgb(0, 0, 0);
+    margin: 2px 3px 2px 3px;
+    background-color: chartreuse;
+    padding: 0px 5px 5px ;
+    font-size: large;
+}
+
+/* prod*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    padding: 0;
+}
+
+
+/*cart*/
+.login-button {
+    width: 150px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+}
+
+/* order */
+
+/*--------------------------------------- all pages background change---------------------------------------------------------*/
+ body {
+    background-image: url('images/.jpg'); /* Replace with your actual image URL */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+.cancel-btn, .success-btn {
+    padding: 5px 10px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.success-btn {
+    background-color: #32cd32;
+}
+
+/* search box*/
+.topnav input[type="text"] {
+    width: 200px; /* Increase or decrease as needed */
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 5px;
+}
+.topnav button[type="submit"] {
+    background-color: #2196F3; /* Blue button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.navbar {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 1000; 
+    position: relative; 
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: #ffc107;
+    border-radius: 5px;
+}
+
